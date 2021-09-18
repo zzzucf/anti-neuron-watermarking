@@ -1,0 +1,48 @@
+{
+	"CUB_200_2011" :
+	{
+		"root":"YOUR_LOCAL_PATH",
+		"train_index_path":"YOUR_LOCAL_PATHutlis/train.txt",
+		"test_index_path":"YOUR_LOCAL_PATHutlis/test.txt",
+		"index_image_path":"YOUR_LOCAL_PATH/CUB_200_2011/images.txt",
+		"index_label_path":"YOUR_LOCAL_PATH/CUB_200_2011/image_class_labels.txt"
+	},
+
+	"Stanford_Cars" :
+	{
+		"root_train":"YOUR_LOCAL_PATH/cars_train",
+		"root_test":"YOUR_LOCAL_PATH/cars_test",
+		"annotations_train":"YOUR_LOCAL_PATH/devkit/cars_train_annos.mat",
+		"annotations_test":"YOUR_LOCAL_PATH/devkit/cars_test_annos_withlabels.mat"
+	},
+
+	"FGVC_Aircraft":
+	{
+		"root":"YOUR_LOCAL_PATH/fgvc-aircraft-2013b/data/images",
+        "variants_path":"YOUR_LOCAL_PATH/fgvc-aircraft-2013b/data/variants.txt",
+		"train_index_path":"YOUR_LOCAL_PATH/fgvc-aircraft-2013b/data/images_variant_trainval.txt",
+		"test_index_path":"YOUR_LOCAL_PATH/fgvc-aircraft-2013b/data/images_variant_test.txt"
+	},
+
+	"Tiny_ImageNet":
+	{
+		"root_train":"YOUR_LOCAL_PATH/tiny-imagenet-200/train",
+		"root_val":"YOUR_LOCAL_PATH/tiny-imagenet-200/val"
+	},
+
+	"ImageNet":
+	{
+		"root_train":"YOUR_LOCAL_PATH/ImageNet/ILSVRC2012_img_train",
+		"root_val":"YOUR_LOCAL_PATH/ImageNet/ILSVRC2012_img_val"
+	},
+
+	"Cifar10":
+	{
+		"root":"YOUR_LOCAL_PATH"
+	},
+
+	"Cifar100":
+	{
+		"root":"YOUR_LOCAL_PATH"
+	}
+}
