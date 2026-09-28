@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: If you use this implementation or build on its research findings, please
+  cite the paper below.
+type: software
+title: 'anti-neuron-watermarking: Research Code'
+authors: &id001
+- family-names: Zou
+  given-names: Zihang
+- family-names: Gong
+  given-names: Boqing
+- family-names: Wang
+  given-names: Liqiang
+repository-code: https://github.com/zzzucf/anti-neuron-watermarking
+url: https://arxiv.org/abs/2109.09023
+keywords:
+- data ownership verification
+- dataset watermarking
+- unauthorized training detection
+- linear color transformation
+- machine learning
+preferred-citation:
+  type: conference-paper
+  authors: *id001
+  title: 'Anti-Neuron Watermarking: Protecting Personal Data Against Unauthorized
+    Neural Networks'
+  collection-title: Computer Vision -- ECCV 2022
+  year: 2022
+  start: '449'
+  end: '465'
+  doi: 10.1007/978-3-031-19778-9_26
+  url: https://arxiv.org/abs/2109.09023
